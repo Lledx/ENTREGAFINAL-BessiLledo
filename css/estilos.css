@@ -1,0 +1,125 @@
+/*reset*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*estilos de body*/
+body{
+    background-color: rgb(245, 245, 245);
+    
+}
+/*estilos de header*/
+
+header{
+    background-color: rgb(255, 255, 255) ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    
+  }
+    header nav ul{
+        list-style: none;
+        display: flex;
+        gap: 60px;
+    }
+     header nav ul li{ 
+        background-color: rgb(115, 184, 184);
+        padding: 20px;
+        border-radius: 30px;
+     }
+    
+ /*estilos de main*/
+    
+ main { 
+
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 50px;
+    padding: 30px 35px;
+    background-image:url("../img/3434.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+    
+
+    /*estilos de footer*/ 
+ footer{
+   text-align: center ;
+ }
+
+/*estilos de main-formulario*/
+.main-formulario{
+    background-image: url(../img/trippy2.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+ 
+ /*estilo de los formularios*/
+ .formulario{
+    height: 600px;
+ }
+ /*estilo de titulo del formulario*/
+
+ .titulo-formulario{
+    padding: 30px;
+ }
+
+ /*estilos de parrafo-contacto*/
+
+.parrafo-contacto{
+    padding: 30px;
+}
+  /*estilos de main-historia*/
+  .main-historia{
+    background-image: url(../img/trippy3.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+ /*estilos de main-redes*/
+ .main-redes{
+  height: 600px;
+ padding: 30px;
+ background-image: url(../img/wtf.jpeg);
+ background-repeat:no-repeat;
+ background-size: cover;
+ background-position: center;
+ }
+
+/*estilos de los logos*/
+
+ .logo-redes-ig{
+padding: 30px;
+ }
+ .logo-redes-yt{
+    padding: 30px;
+     }
+ .logo-redes-sc{
+        padding: 30px;
+         }
+/*estilos de main stats y stats*/
+.main-stats{    
+    background-image: url(../img/trippy5.jpg);
+            background-repeat:no-repeat;
+            background-size: cover;
+            background-position: center;
+          }
+
+.stats{
+    padding: 30px;
+    margin: 30px;
+    gap: 30px;
+}
+
+
