@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /*estilos de body*/
@@ -10,46 +11,154 @@ body{
     
 }
 /*estilos de header*/
-
 header{
-    background-color: rgb(255, 255, 255) ;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px;
-    
-  }
-    header nav ul{
-        list-style: none;
-        display: flex;
-        gap: 60px;
-    }
-     header nav ul li{ 
-        background-color: rgb(115, 184, 184);
-        padding: 20px;
-        border-radius: 30px;
-     }
+    display: none;
+}
+
     
  /*estilos de main*/
     
  main { 
-
     display: flex;
     background-color: rgb(255, 255, 255);
-    justify-content: center;
-    flex-wrap: nowrap;
-    align-items: center;
-    gap: 50px;
-    padding: 30px 35px;
+    flex-direction: column;
+    padding: 1.5rem;
     background-image:url("../img/3434.jpg");
     background-repeat:no-repeat;
     background-size: cover;
     background-position: center;
     color: white;
 }
+main h1{
+    text-align: center;
+    animation-name: animacion-uno;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+
+main h2{
+    text-align: center;
+}
+
+main p{
+    text-align: center;
+}
+
+
+
+@keyframes animacion-uno {
+   0%{
+            transform: matrix(0.5);
+            
+        }
+
+        100%{
+            transform: ma(1.2);
+            
+        }
+}
+
+
+
+
+/*estilo de imagen pagina main*/
+.img-lledx{
+    display: flex;
+    justify-content: center;
+}
+
+/*estilo de video-lledx*/
+.video-lledx{
+    display: flex;
+    justify-content: center;
+}
+
+/* pantallas de tablet */
+@media screen and (min-width:600px){
+
+
+    /* estilos de header */
+    header{
+        display: block;
+        padding: 0.7rem;
+        align-items: center;
+    }
+
+}
+
+/* estilos de pantallas de escritorio */
+
+@media screen and (min-width:1024px){
+    
+    /*estilos del menu*/
+    header nav ul li{
+        transition: 1s;
+    }
+
+    header nav ul li:hover{
+        transform: scale(0.7);
+        transition: 1s;
+    }
+    
+    /* estilos de main */
+   
+      main  h2{
+        text-align:start ;
+    }
+
+    main p{
+        text-align: start;
+    }
+
+    /*estilos de imagen del logo*/
+    .imagen-logo{
+        display: flex;
+        justify-content: start;
+    }
+    /*estilos de main stats y grid*/
+    
+    .stats{
+    
+        display: grid;
+        justify-content: center;
+        grid-template-rows: auto auto auto;
+        grid-template-columns: auto auto auto;
+        
+    }
+  .h2-stats{
+   
+    animation-name: animacion-dos;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+}
+    
+   .h2-dos{
+    animation-name: animacion-dos;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
     
 
-    /*estilos de footer*/ 
+  
+}
+    @keyframes animacion-dos {
+
+   
+        0%{
+                 transform : scale(0.5);
+                 
+             }
+     
+             100%{
+                 transform: scale(1.0);
+                 
+             }
+            }
+        
+        }
+
+
+
+ /*estilos de footer*/ 
  footer{
    text-align: center ;
  }
@@ -109,17 +218,23 @@ padding: 30px;
         padding: 30px;
          }
 /*estilos de main stats y stats*/
-.main-stats{    
+.main-stats{  
     background-image: url(../img/trippy5.jpg);
             background-repeat:no-repeat;
             background-size: cover;
             background-position: center;
-          }
+        }
+.stats img{
+    width: 100%;
+}
 
-.stats{
-    padding: 30px;
-    margin: 30px;
-    gap: 30px;
+/*estilo de imagen-logo*/
+.imagen-logo{
+    height: 40px;
+}
+
+.imagen-logo img{
+    height: 100%;
 }
 
 
