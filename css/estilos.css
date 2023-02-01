@@ -10,11 +10,6 @@ body{
     background-color: rgb(245, 245, 245);
     
 }
-/*estilos de header*/
-header{
-    display: none;
-}
-
     
  /*estilos de main*/
     
@@ -48,12 +43,12 @@ main p{
 
 @keyframes animacion-uno {
    0%{
-            transform: matrix(0.5);
+            transform: scale(0.5);
             
         }
 
         100%{
-            transform: ma(1.2);
+            transform: scale(1.2);
             
         }
 }
