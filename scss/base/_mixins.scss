@@ -1,12 +1,4 @@
-// Media QUERIES//
-
-@mixin tablet {
-    @media (min-width: 600px) {
-        @content;
-    }
-}
-@mixin desktop {
-    @media (min-width: 1024px) {
-        @content;
-    }
-}
+@mixin color-invertido {
+    background-color: #111;
+    color:$bg-principal;
+  }

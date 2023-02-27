@@ -6,6 +6,6 @@ background-image: url(../img/vecty.jpg);
 background-repeat:no-repeat;
 background-size: cover;
 background-position: center;
-background-color: white;
-color: white;
+background-color:$bg-principal;
+@include color-invertido
    }

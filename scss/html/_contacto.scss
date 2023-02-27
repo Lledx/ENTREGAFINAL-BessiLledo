@@ -5,8 +5,8 @@ background-image: url(../img/6565.jpg);
 background-repeat:no-repeat;
 background-size: cover;
 background-position: center;
-background-color: white;
-color: white;
+background-color:$bg-principal;
+@include color-invertido
 }
 .formulario{
     height: 600px;

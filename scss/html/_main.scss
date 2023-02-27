@@ -1,12 +1,12 @@
 .main{
     display: flex;
-    background-color: rgb(255, 255, 255);
+    background-color:$bg-principal;
     padding: 1.5rem;
     background-image:url("../img/4335.jpg");
     background-repeat:no-repeat;
     background-size: cover;
     background-position: center;
-    color: white;
+    @include color-invertido
         
 .main_container{
     margin: 0 auto;
