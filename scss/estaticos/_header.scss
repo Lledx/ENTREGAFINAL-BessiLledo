@@ -7,6 +7,13 @@ header{
     margin: 0 auto;
 
 }
+nav ul li{
+    transition: 1s;
+}
+nav ul li :hover{
+    transform: scale(0.7);
+    transition: 1s;
+}
 
 .header_logo{
     width: 50%;

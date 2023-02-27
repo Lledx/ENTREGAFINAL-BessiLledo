@@ -2,7 +2,7 @@
     display: flex;
     background-color: rgb(255, 255, 255);
     padding: 1.5rem;
-    background-image:url("../img/3434.jpg");
+    background-image:url("../img/4335.jpg");
     background-repeat:no-repeat;
     background-size: cover;
     background-position: center;
@@ -30,7 +30,18 @@ h2{
     justify-content: center;
 }
 
-    
+
+@media screen and (min-width:600px){
+    display: block;
+    padding: 0.7rem;
+    align-items: center;
 }
+
+
+
+}
+
+    
+
 
 
