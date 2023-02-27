@@ -42,6 +42,75 @@ header {
       padding: 0.7rem;
       align-items: center; } }
 
+.main-historia {
+  display: flex;
+  background-image: url(../img/5454.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  background-color: white; }
+
+.main-formulario {
+  display: flex;
+  background-image: url(../img/6565.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: white;
+  color: white; }
+
+.formulario {
+  height: 600px; }
+
+.formulario_id {
+  display: flex;
+  justify-content: center; }
+
+.titulo-formulario {
+  padding: 30px; }
+
+.parrafo-contacto {
+  padding: 30px; }
+
+.main-redes {
+  display: flex;
+  height: 850px;
+  padding: 30px;
+  background-image: url(../img/vecty.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: white;
+  color: white; }
+
+.main-stats {
+  display: flex;
+  background-image: url(../img/130.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  background-color: white; }
+
+.stats {
+  display: grid;
+  justify-content: center;
+  grid-template-rows: auto auto auto;
+  grid-template-columns: auto auto auto; }
+
+.logo-redes-ig {
+  padding: 30px; }
+
+.logo-redes-yt {
+  padding: 30px; }
+
+.logo-redes-sc {
+  padding: 30px; }
+
+.stats img {
+  width: 100%; }
+
 .footer {
   display: flex;
   justify-content: center; }

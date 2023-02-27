@@ -1,0 +1,24 @@
+
+.main-formulario{
+display: flex;
+background-image: url(../img/6565.jpg);
+background-repeat:no-repeat;
+background-size: cover;
+background-position: center;
+background-color: white;
+color: white;
+}
+.formulario{
+    height: 600px;
+}
+.formulario_id{
+    display: flex;
+    justify-content: center;
+}
+.titulo-formulario{
+    padding: 30px;
+}
+
+.parrafo-contacto{
+    padding: 30px;
+}
