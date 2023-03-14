@@ -8,6 +8,12 @@
     @include color-invertido
 }
 .stats{
+    @include tablet{
+        .stats{
+            display: flex;
+        }
+        
+    }
     display: grid;
         justify-content: center;
         grid-template-rows: auto auto auto;

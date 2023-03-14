@@ -9,12 +9,10 @@ html {
   font-family: 'Roboto', sans-serif; }
 
 .imagen-stats {
-  border-radius: 50%;
-  height: 100px;
-  width: 100px; }
+  padding: 30px; }
 
 .img-dos {
-  height: 300px; }
+  padding: 10px; }
 
 header {
   width: 100%; }
@@ -120,6 +118,9 @@ header {
   justify-content: center;
   grid-template-rows: auto auto auto;
   grid-template-columns: auto auto auto; }
+  @media (min-width: 768px) {
+    .stats .stats {
+      display: flex; } }
 
 .logo-redes-ig {
   padding: 30px; }
